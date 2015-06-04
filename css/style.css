@@ -1,0 +1,182 @@
+body{
+
+    background-color: dimgray;
+}
+
+/*customize navbar*/
+ul.nav > li > a {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: georgia, serif;
+}
+
+ul.nav > li > a:active{
+    color: dimgray;
+}
+ul.nav > li >a:hover,
+ul.nav > li >a:focus {
+    color: #000000;
+    background-color: cornflowerblue;
+}
+
+li .dropdown-submenu > a:hover,
+li .dropdown-submenu > a:focus{
+
+    background-color: cornflowerblue;
+}
+
+
+/*end customize navbar*/
+
+
+/*Customize carousel*/
+#Carousel{
+    margin-top: 55px;
+    width: 80%;
+    margin-left: 120px;
+    background-color: cadetblue;
+
+}
+#Carousel .item{
+    height: 300px;
+    width: 100%
+
+}
+
+
+#bk1{
+    background: url("../images/cbook1.png") 0 0 ,
+    url("../images/cbook2.png") 10% 5%,
+    url("../images/cbook3.png") 20% 10%,
+    url("../images/cbook1.png") 30% 10%,
+    url("../images/cbook2.png") 40% 10%,
+    url("../images/cbook3.png") 50% 10%,
+    url("../images/cbook1.png") 60% 0 ,
+    url("../images/cbook2.png") 70% 5%,
+    url("../images/cbook3.png") 80% 10%,
+    url("../images/cbook1.png") 90% 10%,
+    url("../images/cbook2.png") 100% 10%,
+    url("../images/cbook3.png") 110% 10%;
+    background-repeat: no-repeat ;
+
+
+
+}
+
+#bk2{
+    background: url("../images/cbook1.png") 0 0 ,
+    url("../images/cbook2.png") 10% 5%,
+    url("../images/cbook3.png") 20% 10%,
+    url("../images/cbook1.png") 30% 10%,
+    url("../images/cbook2.png") 40% 10%,
+    url("../images/cbook3.png") 50% 10%,
+    url("../images/cbook1.png") 60% 0 ,
+    url("../images/cbook2.png") 70% 5%,
+    url("../images/cbook3.png") 80% 10%,
+    url("../images/cbook1.png") 90% 10%,
+    url("../images/cbook2.png") 100% 10%,
+    url("../images/cbook3.png") 110% 10%;
+    background-repeat: no-repeat ;
+
+}
+
+#bk3{
+    background: url("../images/cbook1.png") 0 0 ,
+    url("../images/cbook2.png") 10% 5%,
+    url("../images/cbook3.png") 20% 10%,
+    url("../images/cbook1.png") 30% 10%,
+    url("../images/cbook2.png") 40% 10%,
+    url("../images/cbook3.png") 50% 10%,
+    url("../images/cbook1.png") 60% 0 ,
+    url("../images/cbook2.png") 70% 5%,
+    url("../images/cbook3.png") 80% 10%,
+    url("../images/cbook1.png") 90% 10%,
+    url("../images/cbook2.png") 100% 10%,
+    url("../images/cbook3.png") 110% 10%;
+    background-repeat: no-repeat ;
+}
+
+
+/*end Customize carousel*/
+
+
+/*customize main footer*/
+#mainFooter{
+    background-color: #222222;
+    color: #ffffff;
+}
+
+
+/*customize main footer*/
+/*customize main contain*/
+#mainContainer,#carousel{
+
+   /* background: linear-gradient(#010C65,#00AEDD,#010C65,#00AEDD,#010C65);
+    background: -webkit-linear-gradient(#010C65,#00AEDD,#010C65,#00AEDD,#010C65);
+    background: -moz-linear-gradient(#010C65,#00AEDD,#010C65,#00AEDD,#010C65);
+    background: -o-linear-gradient(#010C65,#00AEDD,#010C65,#00AEDD,#010C65);
+
+*/
+    /*background-color: #f9f2f4;*/
+    background-color: lightgoldenrodyellow;
+
+}
+
+
+/*end customize main contain*/
+
+/*customize mid point */
+
+div .panel-heading{
+    background-color: #67b168;
+}
+
+#Bookinfo:hover {
+    border: 1px solid #843534;
+}
+
+div .pos {
+    position: relative;
+    top: -115px;
+    left: 350px;
+    font-size: 22px;
+
+}
+
+div .pos > span{
+    font-size: 22px;
+}
+
+img .img-thumbnail{
+    width: 100px;
+    height: 200px;
+    box-shadow: 4px 4px 4px 2px ;
+}
+
+span .badge{
+    font-size: 20px;
+    width: 110%;
+}
+
+#middle_part{
+    margin-top: 10px;
+}
+
+
+#customWell{
+    background-color: darkmagenta;
+}
+
+.sizeofpan{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+a.sizeofpan > div > h5.dname{
+    font-weight: bolder;
+    color: #843534;
+    margin-top: -60px;
+}
+
+
+/*end customize mid point */
