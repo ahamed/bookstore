@@ -208,6 +208,10 @@ if(isset($_POST['submit'])){
         $price = "";
     }
 
+
+
+
+
     $new_old = $_POST['n_o'];
     $dept = $_POST['depmnt'];
     $year = $_POST['year'];
